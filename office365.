@@ -10,3 +10,9 @@ $params = @{
        AllowRedirection = $true
 }
 $exchangeSession = New-PSSession @params
+
+# Connect to Exchange Online
+Import-PSSession $exchangeSession -DisableNameChecking
+#get-owamailboxpolicy -identity OwaMailboxPolicy-Default - ez kilistázza mi van
+#ez beállítja az adott értéket
+set-owamailboxpolicy -identity OwaMailboxPolicy-Default -setphotoenabled $false
