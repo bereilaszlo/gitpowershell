@@ -5,4 +5,5 @@ $NewUserParameters = @{
     'AccountPassword' = (ConvertTo-SecureString 'p@$$w0rd10' -AsPlainText -Force)
     'ChangePasswordAtLogon' = $true
 }
+
 New-AdUser @NewUserParameters

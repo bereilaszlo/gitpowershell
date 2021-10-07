@@ -1,0 +1,1 @@
+Get-ADUser -filter {Enabled -eq $True -and PasswordNeverExpires -eq $False} –Properties “DisplayName”, “msDS-UserPasswordExpiryTimeComputed”, "sAMAccountName", "mail" | Select-Object -Property "sAMAccountName",“Displayname”,@{Name=”ExpiryDate”;Expression={[datetime]::FromFileTime($_.”msDS-UserPasswordExpiryTimeComputed” )}} ,"mail" | out-gridview

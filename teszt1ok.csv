@@ -1,0 +1,11 @@
+First Name,Last Name,Job Title,Office Phone,Employee ID,Email Address,Description,Organizational Unit,AddToGroups(csv),Enabled,Password
+Paul,Hill,CEO,123-537-8775,558739,phill@corona.local,User created by PowerShell automated script,OU=Domain Admins,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,IGAZ,P@$$w0rd
+Dani,Darville,Office Administration,123-537-8776,558741,Dani.Darville@corona.local,User created by PowerShell automated script,OU=Domain Users,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,IGAZ,P@$$w0rd
+Dottie,Woolley,Graphics Designer,123-537-8777,558743,Dottie.Woolley@corona.local,User created by PowerShell automated script,OU=Domain Users,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,IGAZ,P@$$w0rd
+Barry,Audet,Marketing Specialist,123-537-8778,558745,Barry.Audet@corona.local,User created by PowerShell automated script,OU=Domain Users,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,HAMIS,P@$$w0rd
+Lynetta,Easterwood,Marketing Specialist,123-537-8779,558747,Lynetta.Easterwood@corona.local,User created by PowerShell automated script,OU=Domain Users,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,IGAZ,P@$$w0rd
+Jung,Cano,Sys Admin,123-537-8780,558749,Jung.Cano@corona.local,User created by PowerShell automated script,OU=Domain Admins,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,IGAZ,P@$$w0rd
+Cynthia,Manganaro,Graphics Designer,123-537-8781,558751,Cynthia.Manganaro@corona.local,User created by PowerShell automated script,OU=Domain Users,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,HAMIS,P@$$w0rd
+Chet,Bickers,Sys Admin,123-537-8782,558753,Chet.Bickers@corona.local,User created by PowerShell automated script,OU=Domain Admins,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,HAMIS,P@$$w0rd
+Nereida,Hoyle,Office Administration,123-537-8783,558755,Nereida.Hoyle@corona.local,User created by PowerShell automated script,OU=Domain Users,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,IGAZ,P@$$w0rd
+Eleanor,Youngren,Physical Security,123-537-8784,558757,Eleanor.Youngren@corona.local,User created by PowerShell automated script,OU=Domain Users,OU=ServerAcademy,DC=ServerAcademy,DC=Local,,HAMIS,P@$$w0rd
