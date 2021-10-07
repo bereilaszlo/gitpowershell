@@ -1,0 +1,12 @@
+# Credentials
+$credential = Get-Credential
+ 
+# Exchange Online connection settings
+$params = @{
+       ConfigurationName = 'Microsoft.Exchange'
+       ConnectionUri = 'https://outlook.office365.com/powershell-liveid'
+       Credential = $credential
+       Authentication = 'Basic'
+       AllowRedirection = $true
+}
+$exchangeSession = New-PSSession @params
