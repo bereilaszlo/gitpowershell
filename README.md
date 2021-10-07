@@ -1,1 +1,1 @@
-# powershell
+# powershell for admins
